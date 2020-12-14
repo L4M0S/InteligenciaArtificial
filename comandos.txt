@@ -1,0 +1,2 @@
+javac -cp jade.jar maxAgent\MaxAgent.java -d maxAgent\
+java -cp jade.jar;maxAgent jade.Boot -gui maxgent:maxAgent.MaxAgent
